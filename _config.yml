@@ -1,9 +1,9 @@
 # main text of home
-name: Kwon Jack
-bio: dreaming a iOS developer
+name: "Kwon Jack"
+bio: "dreaming a iOS developer"
 
 # twitter summary info
-description: Jack's blog
+description: "Jack's blog"
 
 # if it's an external image, update below for true
 # better with square images
