@@ -1,16 +1,16 @@
 # main text of home
-name: Niveditha Ram
-bio: 'Physics, Teaching, Engineering.'
+name: Kwon Jack
+bio: dreaming a iOS developer
 
 # twitter summary info
-description: A blog about Physics and teaching science
+description: Jack's blog
 
 # if it's an external image, update below for true
 # better with square images
 external-image: false
 picture: 'assets/images/profile.jpg'
 
-# url: http://artiannaswamy.com
+ url: http:somedd.github.io
 # your url: http://USERNAME.github.io
 
 permalink: /:title/
@@ -26,20 +26,20 @@ highlighter: rouge
 
 # if you don't have any of social below, comment the line
 # facebook: myfacebook
-twitter: NivedithaRam
+# twitter: NivedithaRam
 # google: mygoogle
 # instagram: myinstagram
 #pinterest: annasw
 #linkedin: artiannaswamy
 # youtube: myyoutube
 # spotify: myspotify
-github: NivedithaRam
+github: somedd
 # medium: medium
-email: niveditha.ramasubramanian@stonybrook.edu
+email: somedd@naver.com
 
 authors:
     NivedithaRam:
-        name: Niveditha Ram
+        name: Jaewook Kwon
         bio: Physics, Reading, Teaching.
         external-image: false
         picture: assets/images/profile.jpg
