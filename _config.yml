@@ -47,24 +47,24 @@ github: somedd
 # stackoverflow: 7044681/mystackoverflow
 # quora: userquora
 # reddit: username
-medium: medium
+# medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
 email: somedd@naver.com
 
 authors:
     johndoe:
-        name: John Doe
-        bio: A Man who travels the world eating noodles
+        name: Jaewook Kwon
+        bio: dreaming a iOS developer
         external-image: false
         picture: assets/images/profile.jpg
-        twitter: johndoe
+        twitter: 
     jamesfoster:
-        name: James Foster
-        bio: A Man who develops software with coffee
+        name: Jaewook Kwon
+        bio: dreaming a iOS developer
         external-image: false
         picture: assets/images/james.jpg
-        twitter: jamesfoster
+        twitter:
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
