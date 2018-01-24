@@ -4,13 +4,43 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-I am a PhD student in Nuclear Physics at [Stony Brook university](http://www.physics.sunysb.edu/Physics/) supervised by Prof. Thomas Hemmick and Prof. Abhay Deshpande. I did my undergraduate studies in Electrical and Elctronics Engineering at [SASTRA University](http://www.sastra.edu/), India. 
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-I work on a really fun hardware project in which, I help in the design and construction of a [Time Projection Chamber](https://en.wikipedia.org/wiki/Time_projection_chamber) for a proposed [sPHENIX](https://www.sphenix.bnl.gov/web/)  detector system. In parallel, I also work on the measurement of direct photons in forward rapidities from d+Au collisions fron run 2016 at Brookhaven National Lab. This measurement allows for strong constraints of nuclear effects related to gluon saturation as well as insight into the physics of the color glass condensate. More details on my research can be found here.
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-Apart from research, I am very passionate about teaching. Over the last couple of years, I have taught lab courses in Physics for life science undergraduate majors and have volunteered at local elementary school to set up small lab sessions to kindle curiosity and interest in science. More recently, I am designing a curriculum to teach year long to High school students as part of the University's [graduate women in science outreach program](http://www.stonybrook.edu/commcms/wise/pre-college/high_school). More details of my teaching journey can be found [here.](https://niveditharam.github.io/teaching/)
+<h2>Skills</h2>
 
+<ul class="skill-list">
+	<li>HTML - Jade - Haml - Erb</li>
+	<li>Responsive (Mobile First)</li>
+	<li>CSS (Stylus, Sass, Less)</li>
+	<li>Css Frameworks (Bootstrap, Foundation)</li>
+	<li>Javascript (Design Patterns, Testes)</li>
+	<li>NodeJS</li>
+	<li>AngularJS - ReactJS</li>
+	<li>Grunt - Gulp - Yeoman</li>
+	<li>Git</li>
+	<li>PHP</li>
+	<li>Python</li>
+	<li>MySQL - MongoDB</li>
+	<li>Scrum and Kanban</li>
+	<li>TDD e Continuous Integration</li>
+</ul>
 
-More information on my academic journey can be found in my CV.
+<h2>Projects</h2>
 
-Apart from all this, I love theatre, meeting new people, travelling and reading. Feel free to write to me with any questions or opportunities in teaching or theatre that you think will interest me. 
+<ul>
+	<li><a href="https://github.com/">Lorem Lorem</a></li>
+	<li><a href="https://github.com/">Ipsum Dolor</a></li>
+	<li><a href="https://github.com/">Dolor Lorem</a></li>
+</ul>
