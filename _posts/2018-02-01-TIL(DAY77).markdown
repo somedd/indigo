@@ -97,12 +97,13 @@ description: Markdown summary with different options
       3. 크기가 가변적
 
   - LinkedList 구현
-  ```
+  
+  ```swift
     public class Node<T> {
       var value : T
       var next : Node?
       weak var previous : Node?
-      
+
       public init(value : T) {
           self.value = value
       }
