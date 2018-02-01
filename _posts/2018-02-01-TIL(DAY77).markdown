@@ -96,10 +96,28 @@ description: Markdown summary with different options
         - 각각의 원소들은 자기 자신 다음에 어떤 원소인지만을 기억하고 있기 때문에 삭제와 삽입을 O(1) 만에 해결할 수 있으나, 이것은 일단 삽입하고 정렬하는 것과 마찬가지이다. 이 과정 때문에, **어떠한 원소를 삭제 또는 추가하고자 했을 때, 그 원소를 찾기 위해서 O(n)의 시간이 추가적으로 발생하게 된다.**
       3. 크기가 가변적
 
-  - Array를 기반으로한 LinkedList 구현
-  - ArrayList를 기반으로한 LinkedList 구현
+  - LinkedList 구현
+  ```
+    public class Node<T> {
+      var value : T
+      var next : Node?
+      weak var previous : Node?
+      
+      public init(value : T) {
+          self.value = value
+      }
 
-## 알고리즘(1/5)
+      public func add(value : T) {
+          let newNode = Node.init(value: value)
+          newNode.next = self.next
+          self.next = newNode
+      }
+  }
+
+  let head = Node<String>(value : "1")
+  head.add(value: "2")
+  print(head)
+  ```
 
 ## 네트워크(1/6)
 ### HTTP의 GET과 POST 비교
