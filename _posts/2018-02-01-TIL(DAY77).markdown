@@ -91,11 +91,11 @@ description: Markdown summary with different options
 
   - HTTP(HyperText Transfer Protocol)의 정의 : 인터넷에서, 웹 서버와 사용자의 인터넷 브라우저 사이에 문서를 전송하기 위해 사용되는 통신 규약
     - WWW 상에서 정보를 주고받을 수 있는 프로토콜. 주로 HTML 문서를 주고받는 데에 쓰인다. TCP와 UDP를 사용하며, 80번 포트를 사용한다. *TCP/UDP는 나중에 다시 공부.*
-    - ![screensh_77_1](./img/77_1.png)
+    - ![screensh_77_1](./_posts/img/77_1.png)
 
   - GET vs POST
     - HTTP Request 메시지의 구조
-      - ![screensh_77_2](./img/77_2.png)
+      - ![screensh_77_2](./_posts/img/77_2.png)
 
     - GET : 요청하는 데이터가 **HTTP Request Message의 Header 부분의 url에 담겨서 전송** 된다. 때문에 url 상에 데이터가 붙어 request를 보내게 되는 것이다. 이러한 방식은 url이라는 공간에 담겨가기 때문에 전송할 수 있는 데이터의 크기가 제한적이다. 또 보안이 필요한 데이터에 대해서는 데이터가 그대로 url에 노출되므로 GET방식은 적절하지 않다. (ex. password)
 
@@ -106,6 +106,7 @@ description: Markdown summary with different options
 
 ## 데이터베이스(1/6)
 ### 프로세스와 스레드의 차이
+
 
 
 ## 운영체제(1/9)
