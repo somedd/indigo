@@ -1,5 +1,5 @@
 ---
-title: "[Swift] Making a Coordinate-Calcullator"
+title: "[Swift] Making a Coordinate-Calculator"
 layout: post
 date: 2017-12-18 15:00
 image: false
