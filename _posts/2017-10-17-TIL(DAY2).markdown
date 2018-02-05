@@ -1,5 +1,5 @@
 ---
-title: "[TIL] DAY2_JS_프로그래밍 기초(2/25)"
+title: "[TIL]DAY2_JS_1.JS기초(parseInt의 두가지 용도, 논리연산자, MEM구조, 배열), 2.Making a Calender"
 layout: post
 date: 2017-10-17 15:00
 image: false
