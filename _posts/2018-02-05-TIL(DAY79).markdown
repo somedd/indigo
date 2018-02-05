@@ -23,6 +23,7 @@ description: Markdown summary with different options
 ## Stanford iOS강의 시청
 ### #1. iOS 1강 개요 및 계산기 만들기
   - 기본세팅 및 하나의 Scene에 버튼 및 아울렛 설정과 액션연결
+  
 ### #2. iOS MVC 및 계산기 만들기
   - MVC(Model-View-Controller)
     1. Model - Controller
