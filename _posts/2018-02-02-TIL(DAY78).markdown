@@ -1,5 +1,5 @@
 ---
-title: "[TIL] DAY78_(iOS)_vendingMachineApp"
+title: "[TIL] DAY78_(iOS)_VendingMachineApp Step1"
 layout: post
 date: 2018-02-02 15:00
 image: false
@@ -13,4 +13,11 @@ description: Markdown summary with different options
 # jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.github.com/images/icons/emoji/unicode/1f35c.png" height="20" width="20" align="absmiddle">'
 ---
 
-# DAY77
+# DAY78
+## #1. iOS 앱을 구성하는 핵심 객체들(앱 인터페이스와 구성요소)
+  - 화면을 구성하는 세 가지 주요객체
+    1. UIScreen
+    2. UIWindow
+    3. UIView
+
+## #2.  iOS 메인 런루프 동작 이해

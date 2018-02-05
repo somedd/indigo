@@ -1,5 +1,5 @@
 ---
-title: "[TIL] DAY79_iOS_Making a Calculator""
+title: "[TIL] DAY79_iOS_Making a Calculator"
 layout: post
 date: 2018-02-05 15:00
 image: false
