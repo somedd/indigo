@@ -1,5 +1,5 @@
 ---
-title: "[TIL] DAY1_JS_프로그래밍 기초(1/25)"
+title: "[TIL] DAY1_CodeSquad 수업개요"
 layout: post
 date: 2017-10-16 15:00
 image: false
@@ -21,3 +21,4 @@ description: Markdown summary with different options
 20171016
 --------
 # 1. CodeSquad Level 1 수업개요
+  - https://medium.com/@codesquad_yoda/%EB%A7%88%EC%8A%A4%ED%84%B0%EC%A6%88%EC%BD%94%EC%8A%A4%EC%99%80-%EB%A9%A4%EB%B2%84%EC%8A%A4-2938ef78cd1d
