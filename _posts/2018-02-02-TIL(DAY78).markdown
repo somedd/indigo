@@ -1,5 +1,5 @@
 ---
-title: "[TIL] DAY78_(iOS)_VendingMachineApp Step1"
+title: "[TIL] DAY78_iOS_Making a VendingMachineApp(1)"
 layout: post
 date: 2018-02-02 15:00
 image: false
