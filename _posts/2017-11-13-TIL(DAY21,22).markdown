@@ -1,5 +1,5 @@
 ---
-title: "[TIL] DAY21,22_JS_프로그래밍 기초(21,22/25)"
+title: "[TIL] DAY21,22_JS_1. 아틀라스, 2. JSON, 3. 움직이는 에니메이션 만들기"
 layout: post
 date: 2017-11-13 15:00
 image: false

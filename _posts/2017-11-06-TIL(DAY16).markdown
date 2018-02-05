@@ -1,5 +1,5 @@
 ---
-title: "[TIL] DAY16_JS_프로그래밍 기초(16/25)"
+title: "[TIL] DAY16_JS_1. 좋은 코딩습관, 2. 알고리즘(재귀 : 점화식, 다이나믹 프로그래밍), 3. Making a hangman"
 layout: post
 date: 2017-11-06 15:00
 image: false

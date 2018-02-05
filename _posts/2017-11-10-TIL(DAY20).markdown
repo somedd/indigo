@@ -1,5 +1,5 @@
 ---
-title: "[TIL] DAY20_JS_프로그래밍 기초(20/25)"
+title: "[TIL] DAY20_JS_1. 공부해야될 자료구조, 2. 배열과 리스트, 3. Making a 15 puzzle"
 layout: post
 date: 2017-11-10 15:00
 image: false

@@ -1,5 +1,5 @@
 ---
-title: "[TIL] DAY4_JS_프로그래밍 기초(3/25)"
+title: "[TIL] DAY4_JS_1. 실행환경, 2. immutable & mutable, 3. Coding Tip"
 layout: post
 date: 2017-10-19 15:00
 image: false

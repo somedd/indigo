@@ -1,5 +1,5 @@
 ---
-title: "[TIL] DAY13_JS_프로그래밍 기초(13/25)"
+title: "[TIL] DAY13_1. Making a Calculator"
 layout: post
 date: 2017-11-01 15:00
 image: false

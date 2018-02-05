@@ -1,5 +1,5 @@
 ---
-title: "[TIL] DAY5_JS_프로그래밍 기초(5/25)"
+title: "[TIL] DAY5_JS_1.UNIX명령어 배우기, 2. git & github 기초사용법"
 layout: post
 date: 2017-10-20 15:00
 image: false

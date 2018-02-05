@@ -1,5 +1,5 @@
 ---
-title: "[TIL] DAY17_JS_프로그래밍 기초(17/25)"
+title: "[TIL] DAY17_JS_1. 알고리즘 기초(정렬), 2. 연습문제(정렬, 셔플구현)"
 layout: post
 date: 2017-11-07 15:00
 image: false

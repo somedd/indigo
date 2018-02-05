@@ -1,5 +1,5 @@
 ---
-title: "[TIL] DAY11_JS_프로그래밍 기초(11/25)"
+title: "[TIL] DAY11_JS_1.공부해야될 과목들, 2. 함수, 3. Canvas사용(체스판, 로봇, 라이언그리기)"
 layout: post
 date: 2017-10-30 15:00
 image: false

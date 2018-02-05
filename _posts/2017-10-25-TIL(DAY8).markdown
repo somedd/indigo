@@ -1,5 +1,5 @@
 ---
-title: "[TIL] DAY8_JS_프로그래밍 기초(8/25)"
+title: "[TIL] DAY8_JS_1. 숫자 찍기(이어서)"
 layout: post
 date: 2017-10-25 15:00
 image: false

@@ -1,5 +1,5 @@
 ---
-title: "[TIL] DAY25_JS_프로그래밍 기초(25/25)"
+title: "[TIL] DAY25_JS_1. 안정정렬과 불안정정렬, 2. 삽입정렬"
 layout: post
 date: 2017-11-16 15:00
 image: false

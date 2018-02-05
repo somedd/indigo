@@ -1,5 +1,5 @@
 ---
-title: "[TIL] DAY18_JS_프로그래밍 기초(18/25)"
+title: "[TIL] DAY18_JS_1. 첫번째 프로젝트(스네이크 게임) 만들기"
 layout: post
 date: 2017-11-08 15:00
 image: false

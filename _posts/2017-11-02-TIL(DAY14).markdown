@@ -1,5 +1,5 @@
 ---
-title: "[TIL] DAY14_JS_프로그래밍 기초(14/25)"
+title: "[TIL] DAY14_JS_1. 변수의 스코프, 2. 재귀, 3. 애니메이션(공튕기기)"
 layout: post
 date: 2017-11-02 15:00
 image: false

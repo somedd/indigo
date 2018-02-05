@@ -1,5 +1,5 @@
 ---
-title: "[TIL] DAY6_JS_프로그래밍 기초(6/25)"
+title: "[TIL] DAY6_JS_1. 배열과 문자열"
 layout: post
 date: 2017-10-23 15:00
 image: false

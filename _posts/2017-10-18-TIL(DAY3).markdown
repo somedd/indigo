@@ -1,5 +1,5 @@
 ---
-title: "[TIL] DAY3_JS_프로그래밍 기초(3/25)"
+title: "[TIL] DAY3_JS_1. JS별찍기(이어서), 2. 러시안 룰렛 구현"
 layout: post
 date: 2017-10-18 15:00
 image: false

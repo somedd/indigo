@@ -1,5 +1,5 @@
 ---
-title: "[TIL] DAY12_JS_프로그래밍 기초(12/25)"
+title: "[TIL] DAY12_JS_1. DOM과 JQuery의 기초, 2. 서버개념"
 layout: post
 date: 2017-10-31 15:00
 image: false

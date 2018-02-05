@@ -1,5 +1,5 @@
 ---
-title: "[TIL] DAY7_JS_프로그래밍 기초(7/25)"
+title: "[TIL] DAY7_JS_1.JS파일 읽기와 쓰기(block과 non-block, 동기와 비동기) 2.객체(객체란?,객체지향프로그래밍의 특징)"
 layout: post
 date: 2017-10-24 15:00
 image: false
