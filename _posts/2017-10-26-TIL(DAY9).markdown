@@ -1,0 +1,229 @@
+---
+title: "[TIL] DAY9_JS_프로그래밍 기초(9/25)"
+layout: post
+date: 2017-10-26 15:00
+image: false
+headerImage: false
+tag:
+- javascript
+category: blog
+author: jamesfoster
+description: Markdown summary with different options
+# jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.github.com/images/icons/emoji/unicode/1f35c.png" height="20" width="20" align="absmiddle">'
+---
+
+## Summary:
+
+# DAY9
+
+## 2017/10/26
+
+# TIL
+
+
+## #1\. 객체 첨자 (javascript에서 h.x와 h[x]의 차이는?)
+
+- 객체를 배열처럼 처리하는 이유
+
+  ```javascript
+  var h = { name : "해나",
+  status : "잠못잠",
+  money : 9999999};
+  h.money -= 5000;
+  var x = prompt("어떤 속성을 바꿀래요?");
+  var y = prompt("어떤 값으로 바꿀래요?");
+  console.log(x, y);
+  h.x = y;
+  console.log(h);
+  //결과는 x라는 key가 추가가 된다.
+  //따라서, h[x] = y로 표기로 해야된다. (h[x] = h["money"])도 같은 의미.
+  //값으로 속성을 접근하고 싶을 때 사용한다.
+  ```
+
+## #2\. for...in
+
+- 객체를 사용한다.
+- 배열로 사용하면 idx로 처리되기 때문에 사용하면 안된다.
+
+  ```javascript
+  var h = { name : "해나",
+            status : "잠못잠",
+            money : 9999999,
+            age : 23,
+            pc : 5,
+            pet : ['에비츄', '스누피', '가필드'],
+            work : function(money) {
+              this.money += money;
+            }};
+  for (var x in h) {
+  console.log(X);
+  }
+  ```
+
+## #3\. 조건문과 반복문
+
+### 1\. while 반복문
+
+```javascript
+while(조건) {
+  console.log("참일때 실행됨");
+}
+```
+
+### 2\. break
+
+- break를 만나면 해당하는 하나의 반복문을 벗어난다.
+
+  ### 3\. continue
+
+- continue를 만나면 반복문의 처음으로 돌아간다.
+
+- for(1 ; 2 ; 3)문에서 만나면, 3으로 간다.
+
+  ```javascript
+  console.log("start");
+  for (var i = 0; i < 5; i++) { //i가 3이면 i++로 간다.
+  console.log("1 %d", i);
+  if (i >= 3) {
+    continue;
+  }
+  console.log("2 %d", i);
+  }
+  console.log("end")
+  ```
+
+  ### 2\. while과 for문
+
+- 아래의 두 소스는 똑같은 것임.
+  ```javascript
+  var i = 0; //(1)
+  while (i <= 100) { //(2)
+  console.log(i); //(3)
+  i++; //(4)
+  }
+  ```
+  ```javascript
+  for (var i = 0; i <= 100; i++) {
+   console.log(i);
+  }
+  ```
+
+## #4\. HTML
+### 1. 태그
+- ```<h1> </h1>``` : 헤드를 표시
+- ```<p> </p>``` :내용을 표시
+### 2. Semantic Web과 HTML5
+- 태그별 각각의 요소들이 의미를 갖고 있다.
+### 3. DOM(Document Object Model)
+- 문서를 객체를 이용해서 트리구조로 표현한다.(조작한다.)
+
+  -즉, 최상위 계층은 html, 그밑에 태그 등등이 들어간다.
+- 브라우져의 엔진으로 웹상에 구현한다. (Ex)Gecko, Webkit)
+
+  -DOM을 WEB에 뿌리는 것이 엔진!
+### 4. 엘리먼트(Element)
+- 여는 태그와 닫는 태그로 이루어진다.
+- 태그 사이에 콘텐츠를 갖고, 태그 안에 속성과 속성의 값을 갖는다.
+- 단일 태그에 콘텐츠가 없을경우 ```<tag /```처럼 표현하지만, 그냥 여는 태그만 가질 수 있다. (img, br)
+- 블록 엘리먼트 : p, h1, div처럼 줄이 바뀌는 엘리먼트
+- 인라인 엘리먼트 : span, img, input, button, a(하이퍼링크)처럼 줄바뀜이 없는 엘리먼트.
+### 5. 속성(Attributes)
+- 아래에서는 2가지의 속성을 갖는 것임. (href, title)
+
+  ```html
+  <a href="http://codesquad.kr" title="코드스쿼드">
+  ```
+### 6. HTML 객체
+- window : 최상위 객체
+- document : DOM의 최상위 객체
+# My Coding
+
+# #1\. for...in
+1. 객체 h의 키와 값을 출력해보자.
+2. 객체 h의 숫자 객체의 합을 출력해 보자.
+
+- 객체 h
+
+  ```javascript
+  var h = {
+  name: "해나",
+  status: "잠못잠",
+  money: 9999999,
+  age: 23,
+  pc: 5,
+  pet: ['에비츄', '스누피', '가필드'],
+  work: function(money) {
+    this.money += money;
+  }
+  };
+  ```
+
+- 1-1\. My solution
+
+  ```javascript
+  for (var key in h) {
+  console.log("%s :  %s", key, h[key]);
+  }
+  ```
+
+- 1-2\. My solution
+
+  ```javascript
+  var sum = 0;
+  for (var key in h) {
+  if (typeof(h[key]) === 'number') {
+    sum += h[key];
+  }
+  }
+  console.log(sum);
+  ```
+# #2\. 연습문제#1
+
+- 1~100사이 임의의 숫자를 생성하고 맞추는 게임 구현하기
+- My solution
+
+  ```javascript
+  var generateNum = function() {
+  return (Math.floor(Math.random() * 100 + 1));
+  };
+  var num = generateNum();
+  i = 1;
+  console.log(num);
+  while (num !== isNum) {
+  var isNum = parseInt(prompt("숫자를 입력하세요!"));
+  if (num == isNum) {
+    document.write("정답입니다! 시도한 횟수 : " + i);
+    break;
+  } else if (num > isNum) {
+    document.write("입력하신 숫자보다 큰 숫자랍니다.<br>")
+  } else if(num < isNum) {
+    document.write("입력하신 숫자보다 작은 숫자랍니다.<br>")
+  }
+  i++;
+  }
+  ```
+
+# #2\. 연습문제#2
+
+1. 숫자게임을 개량해 봅시다.
+2. w3c html과 css를 공부해 봅시다.
+3. 간단한 웹 페이지를 골라서 비슷하게 만들어 봅시다.
+- My solution
+  ```html
+  <!DOCTYPE html>
+  <html lang="jack">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+  </head>
+
+  <body style = "background-color:Linen">
+    <h1>숫자 맞추기 게임!</h1>
+      <img src="http://codesquad.kr/img/company/codesquad2.png" width = 200>
+      <p style="color:Blue " id = 'test'><strong>1 ~ 100까지의 숫자가 생성됩니다. 맞춰보세요!</strong></p>
+      <p style ="border:2px solid tomato;"><strong><script src = "test2.js"></strong></script></p>
+  </body>
+  </html>
+  ```

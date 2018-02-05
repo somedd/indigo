@@ -1,13 +1,11 @@
 ---
-title: "[TIL] DAY1"
+title: "[TIL] DAY1_JS_프로그래밍 기초(1/25)"
 layout: post
 date: 2017-10-16 15:00
 image: false
 headerImage: false
 tag:
-- markdown
-- components
-- extra
+- javascript
 category: blog
 author: jamesfoster
 description: Markdown summary with different options
@@ -16,11 +14,10 @@ description: Markdown summary with different options
 
 ## Summary:
 
-DAY1
+## Summary:
+
+# DAY1
 ====
 20171016
 --------
-1. 수업개요
-~~~~~~~~~~
-무엇일까요.
-~~~~~~~~~~
+# 1. CodeSquad Level 1 수업개요
