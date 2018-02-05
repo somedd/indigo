@@ -1,0 +1,16 @@
+---
+title: "[TIL] DAY78_(iOS)_vendingMachineApp"
+layout: post
+date: 2018-02-02 15:00
+image: false
+headerImage: false
+tag:
+-
+
+category: blog
+author: jack
+description: Markdown summary with different options
+# jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.github.com/images/icons/emoji/unicode/1f35c.png" height="20" width="20" align="absmiddle">'
+---
+
+# DAY77
