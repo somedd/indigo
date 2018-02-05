@@ -7,7 +7,7 @@ headerImage: false
 tag:
 - Swift
 - JSON 문자열 분석기
-
+projects: true
 category: projects
 author: jack
 description: Markdown summary with different options

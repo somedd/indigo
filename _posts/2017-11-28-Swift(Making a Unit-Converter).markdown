@@ -7,7 +7,7 @@ headerImage: false
 tag:
 - Swift
 - 단위변환기
-
+projects: true
 category: projects
 author: jack
 description: Markdown summary with different options

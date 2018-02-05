@@ -7,7 +7,7 @@ headerImage: false
 tag:
 - Swift
 - 사진액자앱
-
+projects: true
 category: projects
 author: jack
 description: Markdown summary with different options

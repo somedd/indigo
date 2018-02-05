@@ -7,7 +7,7 @@ headerImage: false
 tag:
 - Swift
 - 자판기
-
+projects: true
 category: projects
 author: jack
 description: Markdown summary with different options

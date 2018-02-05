@@ -7,7 +7,7 @@ headerImage: false
 tag:
 - Swift
 - 좌표변환기
-
+projects: true
 category: projects
 author: jack
 description: Markdown summary with different options
