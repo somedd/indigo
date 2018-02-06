@@ -15,7 +15,7 @@ description: Markdown summary with different options
 
 # DAY80
 ## Making a VendingMachineApp(2)
-![screensh_80_1](https://github.com/somedd/somedd.github.io/tree/master/_posts/img/80_1.png){: class="bigger-image" }
+![screensh_80_1](https://github.com/somedd/somedd.github.io/blob/master/_posts/img/80_1.png?raw=true){: class="bigger-image" }
 
 ### IBOutlet Collection 기능에 대해 학습하고 중복되는 아웃렛을 제거한다.
 ### UIImageView 에서 이미지를 표시할 때 사각형 코너를 둥글게하도록 변경해본다.
