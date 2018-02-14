@@ -16,7 +16,7 @@ description: Markdown summary with different options
 
 # Making a VendingMachine
 ## Contents To Learn
-
+- https://github.com/somedd/swift-vendingmachine/tree/somedd
 - 스위프트 문법과 지식
  - 3단계 이상 class 단계별 추상화하기
  - 메소드 오버라이드 구현하기 (다형성 이해하기)

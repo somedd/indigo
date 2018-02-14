@@ -15,6 +15,7 @@ description: Markdown summary with different options
 ---
 # Making a LadderGame
 ## Contents To Learn
+- https://github.com/somedd/swift-laddergame/tree/somedd
 - 개발 환경
   - 프로젝트에 타깃 추가, 삭제하기
   - 타깃별로 빌드하기

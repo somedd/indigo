@@ -16,7 +16,7 @@ description: Markdown summary with different options
 
 # Making a CardGame
 ## Contents To Learn
-
+- https://github.com/somedd/swift-cardgame/tree/somedd
 - 스위프트 문법과 지식
   - struct와 class 차이점
   - 객체 단위로 역할 분담하기와 의존성 개선하기
