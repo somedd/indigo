@@ -70,7 +70,7 @@ description: Markdown summary with different options
 
 ## - Step 2
 
-![screemsh_step2](./img/Step2.png)
+![screemsh_step2](https://github.com/somedd/swift-vendingmachineapp/raw/somedd/img/Step2.png)
 
 ## #1. IBOutlet Collection 기능에 대해 학습하고 중복되는 아웃렛을 제거한다.
   1. 중복되는 요소들 중 하나를 View Controller로 끌어서 IBOutletCollection 만듦
@@ -200,8 +200,8 @@ description: Markdown summary with different options
 ## - Step6
 ## 구매목록 View 코드
   - 실행화면
-    ![screemsh_step6-1](./img/Step6-1.png)
-    ![screemsh_step6-2](./img/Step6-2.png)
+    ![screemsh_step6-1](https://github.com/somedd/swift-vendingmachineapp/raw/somedd/img/Step6-1.png)
+    ![screemsh_step6-2](https://github.com/somedd/swift-vendingmachineapp/raw/somedd/img/Step6-2.png)
   - 실행이후 구매 목록을 화면 아래 이미지로 추가한다. : viewDidLoad() 내부 updateListOfPurchase() 메서드 추가
     ```
     private func updateListOfPurchase() {
@@ -236,8 +236,8 @@ description: Markdown summary with different options
 ## - Step 7
 ### Frame과 Bounds
   - 실행화면
-    ![screemsh_step7-1](./img/Step7-1.png)
-    ![screemsh_step7-2](./img/Step7-2.png)
+    ![screemsh_step7-1](https://github.com/somedd/swift-vendingmachineapp/raw/somedd/img/Step7-1.png)
+    ![screemsh_step7-2](https://github.com/somedd/swift-vendingmachineapp/raw/somedd/img/Step7-2.png)
   - 주요개념
     - Geometry: 뷰의 위치, 크기를 표시
     - Frame: Superview(상위뷰)의 좌표시스템 내에서 view의 위치, 크기를 나타냄
@@ -261,8 +261,8 @@ description: Markdown summary with different options
 ## - Step 8
 ### 코어 그래픽스(Core Graphics)
   - 실행화면
-    ![screemsh_step8-1](./img/Step8-1.png)
-    ![screemsh_step8-2](./img/Step8-2.png)
+    ![screemsh_step8-1](https://github.com/somedd/swift-vendingmachineapp/raw/somedd/img/Step8-1.png)
+    ![screemsh_step8-2](https://github.com/somedd/swift-vendingmachineapp/raw/somedd/img/Step8-2.png)
 
   - setNeedsDisplay()
     - 드로잉 사이클(next drawing cycle)동안 View를 업데이트해야 함을 시스템에 알리는 메서드.
@@ -274,9 +274,9 @@ description: Markdown summary with different options
 ### 터치 이벤트(Touch-event)
   - 실행화면
     - began
-    ![screemsh_step9-1](./img/Step9-1.png)
+    ![screemsh_step9-1](https://github.com/somedd/swift-vendingmachineapp/raw/somedd/img/Step9-1.png)
     - moved
-    ![screemsh_step9-2](./img/Step9-2.png)
+    ![screemsh_step9-2](https://github.com/somedd/swift-vendingmachineapp/raw/somedd/img/Step9-2.png)
 
   - 구현방법
 
