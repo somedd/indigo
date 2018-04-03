@@ -15,10 +15,8 @@ description: Markdown summary with different options
 # jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.github.com/images/icons/emoji/unicode/1f35c.png" height="20" width="20" align="absmiddle">'
 ---
 # Jack's VendingMachineApp
-## My Source
-- https://github.com/somedd/swift-vendingmachineapp/tree/somedd
+  - https://github.com/somedd/swift-vendingmachineapp/tree/somedd
 
-# Making a VendingMachineApp
 ## - Step 1
 ## #1. iOS 앱을 구성하는 핵심 객체들(UIKit Framework의 핵심 객체들)
   - **UIApplication : 시스템으로부터 이벤트를 받아 Custom Objects로 이벤트를 전달하고 상위 레이어의 앱 동작을 조정**
