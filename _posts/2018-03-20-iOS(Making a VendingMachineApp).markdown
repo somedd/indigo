@@ -17,6 +17,7 @@ description: Markdown summary with different options
 # Jack's VendingMachineApp
   1. https://github.com/somedd/swift-vendingmachineapp/tree/somedd
   2. Contents To Learn
+  
     - iOS앱을 구성하는 핵심 객체들(in UIKit Framework)
     - MVC패턴
     - 앱 생명주기와 객체저장(아카이빙)
