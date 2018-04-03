@@ -14,7 +14,16 @@ description: Markdown summary with different options
 # jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.github.com/images/icons/emoji/unicode/1f35c.png" height="20" width="20" align="absmiddle">'
 ---
 # Jack's PhotoFrame
-  - https://github.com/somedd/swift-photoframe/tree/somedd
+  1. https://github.com/somedd/swift-photoframe/tree/somedd
+  2. Contents To Learn
+    - Tapped App 템플릿
+    - IBOutlet
+    - IBAction
+    - Scene과 Segue
+    - ViewController 프로그래밍
+    - Container ViewController
+    - Second Scene
+    - UIImagePickerController
 
 ## Step1. 시작하기 (Tabbed App 템플릿)
   - 요구사항 : 자동 생성된 ViewController 클래스 viewDidLoad() 함수에서 print(#file, #line, #function, #column) 코드를 추가하고 실행하면 콘솔 영역에 무엇이 출력되는지 확인한다.

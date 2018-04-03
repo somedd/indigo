@@ -15,7 +15,18 @@ description: Markdown summary with different options
 # jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.github.com/images/icons/emoji/unicode/1f35c.png" height="20" width="20" align="absmiddle">'
 ---
 # Jack's VendingMachineApp
-  - https://github.com/somedd/swift-vendingmachineapp/tree/somedd
+  1. https://github.com/somedd/swift-vendingmachineapp/tree/somedd
+  2. Contents To Learn
+    - iOS앱을 구성하는 핵심 객체들(in UIKit Framework)
+    - MVC패턴
+    - 앱 생명주기와 객체저장(아카이빙)
+    - 싱글톤 모델
+    - 관찰자(Observer) 패턴
+    - View 동적 코딩
+    - Frame과 bounds
+    - 코어 그래픽스
+    - 터치 이벤트
+
 
 ## - Step 1
 ## #1. iOS 앱을 구성하는 핵심 객체들(UIKit Framework의 핵심 객체들)
