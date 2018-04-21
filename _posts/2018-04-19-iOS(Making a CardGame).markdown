@@ -18,6 +18,7 @@ description: Markdown summary with different options
 # Jack's CardGameApp
   1. https://github.com/somedd/swift-cardgameapp/tree/somedd
   2. Contents To Learn
+
     - MVC 객체 역할과 데이터 흐름
     - 다른 뷰를 포함하는 커스텀 뷰 객체 만들기
     - 뷰 Frame과 애니메이션
@@ -25,6 +26,7 @@ description: Markdown summary with different options
     - 드래그 앤 드롭 구현하기
 
   3. 개발 경험
+  
     - 특정 객체가 복잡한 구조를 개선하여 역할을 나눠 갖는 구조로 바꾸었다
     - 화면 입력 > 이벤트 분류 > 데이터 변경 > 화면 갱신 흐름에 의존성을 줄이면서 구현했다
     - 계층구조가 있는 뷰와 뷰모델을 만들어서 데이터와 화면을 분리했다
