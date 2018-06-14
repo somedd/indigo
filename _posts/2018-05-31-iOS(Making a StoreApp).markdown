@@ -18,8 +18,9 @@ description: Markdown summary with different options
 # Jack's CardGameApp
 
   1. https://github.com/somedd/swift-storeapp/tree/somedd
+
   2. Contents To Learn
-  
+
     - 패키지 관리
     - 네트워크 프로그래밍 담당 모델 만들기
     - 병렬처리를 위한 개념과 이해
@@ -497,3 +498,8 @@ description: Markdown summary with different options
 ## 실행화면
 ![screemsh_step8_1](https://github.com/somedd/swift-StoreApp/raw/somedd/img/Step8-1.png)
 ![screemsh_step8_2](https://github.com/somedd/swift-StoreApp/raw/somedd/img/Step8-2.png)
+
+## 참고
+  - https://marcosantadev.com/network-reachability-swift/
+  - https://blog.pusher.com/handling-internet-connection-reachability-swift/
+  - https://medium.com/@danielemargutti/network-layers-in-swift-7fc5628ff789
