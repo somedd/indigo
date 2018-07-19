@@ -24,11 +24,12 @@ description: Markdown summary with different options
   - 그 이후, 전화와 컴퓨터가 복잡해지면서, 컴퓨터가 하나의 노드를 담당하고, 전세계를 묶어주는 Link가 구성이되었음.
   - 요새는, IMS(All-IP). 모든 통신이 데이터를 통해 이루어진다. 또한, 모든 장비들이 다 프로그램이다.
     - 하지만, 이와 같이 통신을 하려면 규칙이 필요하다. 이를 정하는 기관이 IETF. 표준안을 정한다.
-  - 네트워크 프로그래밍을 한다는 것은
-    1. 각 용어를 이해하였는가
-    2. 위 용어들의 컨셉을 알고 있는 상태에서 활용할 줄 아는가.
+- 네트워크 프로그래밍을 한다는 것은
+  1. 각 용어를 이해하였는가
+  2. 위 용어들의 컨셉을 알고 있는 상태에서 활용할 줄 아는가.
 
-# OSI(Open Stystem Interconnection) 7 Layer (외우지 말고, 이해를 하면 된다.)
+# OSI 7 Layer (외우지 말고, 이해를 하면 된다.)
+- OSI: Open Stystem Interconnection
 - Upper Layers
   - 7.Application Layer: 메일형식으로 주고 받을 것이닞? 다른 Format으로 주고 받을 지를 결정한다.
   - 6.Presentation Layer: 어떤 식으로 표현할 것인가?(HTTP? Text? 영어로? 한글로? 를 결정.)
@@ -102,7 +103,7 @@ description: Markdown summary with different options
   let data = Data(contentsOf: URL(String: "address"))
   ```
 
-# Network.framework (iOS 12
+# Network.framework (iOS 12)
 - Connection Setup
   ```
   // Create an outbound connection
