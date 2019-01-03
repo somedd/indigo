@@ -13,9 +13,9 @@ description: Markdown summary with different options
 # jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.github.com/images/icons/emoji/unicode/1f35c.png" height="20" width="20" align="absmiddle">'
 ---
 
-# 2018/01/02
+# RxSwift in 4 hours (1,2,3/11) by 곰튀김님
 
-## RxSwift in 4 hours (1,2,3/11) by 곰튀김님
+## 2018/01/02
 
 - ### 출처
 
