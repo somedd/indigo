@@ -122,7 +122,7 @@ description: Markdown summary with different options
 
 - RxSwift
 
-  - `Observable`를 `seal`에다가  ` Next`로 전달. `subscribe`으로 결과를 받아서 처리.
+  - `Observable`를 `seal`에다가  ` OnNext` 로 전달. `subscribe` 으로 결과를 받아서 처리.
 
   ```swift
   @IBAction func onLoadImage(_ sender: Any) {
