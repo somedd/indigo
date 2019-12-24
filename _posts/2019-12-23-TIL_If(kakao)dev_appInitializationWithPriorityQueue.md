@@ -1,5 +1,19 @@
-# 19/12/23
+---
+title: "if kakao 2019 - App Initialization with Priority Queue / Sheldon님"
+layout: post
+date: 2019-12-23 20:00
+image: false
+headerImage: false
+tag:
+-
 
+category: blog
+author: jack
+description: Markdown summary with different options
+# jemoji: '<img class="emoji" title=":ramen:" alt=":ramen:" src="https://assets.github.com/images/icons/emoji/unicode/1f35c.png" height="20" width="20" align="absmiddle">'
+---
+
+# 19/12/23
 ## if (kakao) dev 2019
 
 ### App initialization with priority queue - Sheldon (이상규)님
@@ -202,12 +216,12 @@
 
   - Push Payload에 URL이 들어온다면?
 - 우선순위는 pushNotification과 거의 동일한 우선순위
-  
+
 - Ranking by Priority?
     - 그렇다면 우선순위를 어떻게 정할까?
     - **Required or Optional**
     - Optional은 대부분 기획적인 요소가 많을 것임.
-  
+
 4. 기획적 요구사항
      - Service Banner 우선순위를 가장 마지막에 해두면 됨.
      - 갑자기, 추가적인 banner를 보여줘야하는 상황에서도 우선순위 조정하여 enqueue만 해주면 된다.
