@@ -143,6 +143,7 @@ description: Markdown summary with different options
 #### But Why Priority Queue?
 - Priority Queue를 사용해서, 이런 것들을 만들 필요가 있을까? 라는 의문이 듬
 - 꼭 사용해야할까? 라는 장점이 보이질 않음. 하지만, 아래 5가지의 경우를 고려해본다면, 얘기가 달라질 수 있음.
+
 1. Login Task
   - Task4에서 예외처리가 났을 경우, 결국, Task1로 보내야한다. 물론, 캐싱, 함수를 나누던지 여러 방법이 있지만 복잡해짐.
   - Ex) Get my Information -> Check Kakao Auth*Exception 발생
