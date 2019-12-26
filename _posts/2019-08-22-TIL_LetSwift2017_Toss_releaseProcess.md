@@ -14,15 +14,12 @@ description: Markdown summary with different options
 ---
 
 # 2019/08/22
+## LetSwift 2017
+###토스의 개발/배포 환경 - 손민탁님
+- [영상링크](https://youtu.be/338FdLzGhhY)
+- [발표자료](https://www.slideshare.net/MintakSon/ios-80115427)
 
-## Let's Swift 2017 토스의 개발/배포 환경 - 손민탁님
-
-### 영상링크: https://youtu.be/338FdLzGhhY
-
-### 발표자료: https://www.slideshare.net/MintakSon/ios-80115427
-
-### - 풀고자 한 문제
-
+#### 풀고자 한 문제
 - 스킴, 프로젝트, 워크스페이스 파일관리는 생각만해도 머리가 아프고, 치가 떨림
 - 프로젝트 파일(ex. -objc, -force_load, $(interited), OTHER_LDFLAGS)을 볼 때마다 로딩시간이 너무 김
 - 베타서버용 테스트 앱을 빌드해주는 경우.
@@ -37,13 +34,12 @@ description: Markdown summary with different options
     2. 제휴 SDK 관리하기: .xcpdeproj 최대한 덜 건드리기, 제휴 SK 이력 업데이트 ㅗ간리 쉽게
     3. 배포 쉽게하기: fastlane, fabric 베타
 
-### - .xcconfig로 프로젝트 설정하기
-
+#### .xcconfig로 프로젝트 설정하기
 - Target vs .xcscheme?
   - WWDC 2014 Videos - `sharing code between iOS and OS X`을 확인!
   - .xcconfig를 subclass + composition을 사용한 것임.
   - 비공식 문서도 많은 부분이었음. 많은 삽질 끝에 알아낸 방법을 공유하고자 함.
-- 방법 *발표자료를 꼭 확인하기
+- 방법: *발표자료를 꼭 확인하기*
   1. 반영 방식 파악하기
   2. 기존 설정 뽑아내기
      - buildingSettingExtractor라는 오프소스 활용.
@@ -58,16 +54,13 @@ description: Markdown summary with different options
      - //가 주석으로 인식이 된다. 그래서 hack을 써야함.
      - 뽑아낸 설정 중에서 필요한 것만 써야함.
 
-### - private cocoa pods 설정하기
-
+#### private cocoa pods 설정하기
 - cocoapods을 쓰지 않는 제휴사 SDK/framework를 활용하기 위해 private cocoapods을 만들었음.
 - 방법 *발표자료 확인
 
-### - fastlane + beta 설정하기
-
+#### fastlane + beta 설정하기
 - Fastlane - Felix Krause가 만듬.
 - 방법 *발표자료 확인
 
-### - Reference
-
+#### Reference
 - 발표자료 확인
