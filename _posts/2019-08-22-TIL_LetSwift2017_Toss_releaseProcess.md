@@ -1,5 +1,5 @@
 ---
-title: "Let's Swift 2017 토스의 개발/배포 환경 - 손민탁님"
+title: "LetSwift 2017 토스의 개발/배포 환경 - 손민탁님"
 layout: post
 date: 2019-08-22 19:34
 image: false
@@ -63,7 +63,7 @@ description: Markdown summary with different options
 - cocoapods을 쓰지 않는 제휴사 SDK/framework를 활용하기 위해 private cocoapods을 만들었음.
 - 방법 *발표자료 확인
 
-### - fastlane + beta 설정하기 
+### - fastlane + beta 설정하기
 
 - Fastlane - Felix Krause가 만듬.
 - 방법 *발표자료 확인
