@@ -15,7 +15,7 @@ description: Markdown summary with different options
 
 # 2019/08/22
 ## LetSwift 2017
-###토스의 개발/배포 환경 - 손민탁님
+### 토스의 개발/배포 환경 - 손민탁님
 - [영상링크](https://youtu.be/338FdLzGhhY)
 - [발표자료](https://www.slideshare.net/MintakSon/ios-80115427)
 
